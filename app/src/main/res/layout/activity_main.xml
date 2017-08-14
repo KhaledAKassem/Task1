@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:background="@drawable/backed"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:text=" اكمل البيانات الشخصية  "
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:id="@+id/text2"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/customizeview"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="3dp">
+
+        </TextView>
+
+        <TextView
+            android:text="  &lt;&lt;&#032; رجوع "
+            android:layout_weight="7.84"
+            android:background="@drawable/customizeview"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:id="@+id/text1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="3dp">
+        </TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:weightSum="1">
+
+        <Button
+            android:background="@drawable/customizedbutton"
+            android:layout_height="match_parent"
+            android:layout_width="82dp"
+            android:id="@+id/b1"
+            android:text="2"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            >
+
+        </Button>
+
+
+        <Button
+            android:background="@drawable/customizedbutton"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="72dp"
+            android:id="@+id/b2"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:layout_weight="0.03"
+            android:layout_marginLeft="90dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="الحالة الاجتماعية "
+        android:layout_width="331dp"
+        android:id="@+id/textView5"
+        android:textColor="@android:color/black"
+        android:layout_height="30dp"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Status"
+            android:id="@+id/editText5"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:gravity="right"
+
+            android:background="@drawable/bboy" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="تاريخ الزواج"
+            android:layout_weight="0.60"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:id="@+id/oo"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/cc"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner6"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner5"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner4"
+            android:gravity="center"
+
+
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" الدولة"
+            android:layout_weight="0.66"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:id="@+id/ooo"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ee"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:hint="Country"
+        android:gravity="center"
+        android:layout_weight="0.19" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" المدينة"
+            android:layout_weight="0.70"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:id="@+id/oooo"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ww"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="City"
+        android:gravity="center"
+        android:layout_weight="0.10" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" العنوان"
+            android:layout_weight="0.70"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:id="@+id/ooooo"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/mm"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:hint="Address"
+        android:gravity="center"
+        android:layout_weight="0.22" />
+
+    <CheckBox
+        android:text="اوافق على الشروط والاحكام"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:id="@+id/checkBox2"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>
